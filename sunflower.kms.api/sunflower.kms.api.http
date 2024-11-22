@@ -1,0 +1,6 @@
+@sunflower.kms.api_HostAddress = http://localhost:5054
+
+GET {{sunflower.kms.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

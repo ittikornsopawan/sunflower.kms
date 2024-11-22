@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/sunflower.kms.api.csproj": {}
+  },
+  "projects": {
+    "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/sunflower.kms.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/sunflower.kms.api.csproj",
+        "projectName": "sunflower.kms.api",
+        "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/sunflower.kms.api.csproj",
+        "packagesPath": "/Users/ittikornsopawan/.nuget/packages/",
+        "outputPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ittikornsopawan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj": {
+                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj",
+        "projectName": "sunflower.kms.application",
+        "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj",
+        "packagesPath": "/Users/ittikornsopawan/.nuget/packages/",
+        "outputPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ittikornsopawan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj": {
+                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj"
+              },
+              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj": {
+                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj",
+        "projectName": "sunflower.kms.domain",
+        "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj",
+        "packagesPath": "/Users/ittikornsopawan/.nuget/packages/",
+        "outputPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ittikornsopawan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj",
+        "projectName": "sunflower.kms.shared",
+        "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj",
+        "packagesPath": "/Users/ittikornsopawan/.nuget/packages/",
+        "outputPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ittikornsopawan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

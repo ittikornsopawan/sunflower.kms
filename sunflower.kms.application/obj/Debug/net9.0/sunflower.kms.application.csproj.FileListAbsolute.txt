@@ -1,0 +1,17 @@
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.application.deps.json
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.application.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.application.pdb
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.domain.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.shared.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.domain.pdb
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/bin/Debug/net9.0/sunflower.kms.shared.pdb
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.csproj.AssemblyReference.cache
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.AssemblyInfoInputs.cache
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.AssemblyInfo.cs
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.csproj.CoreCompileInputs.cache
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflowe.D781FBF4.Up2Date
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/refint/sunflower.kms.application.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/sunflower.kms.application.pdb
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/obj/Debug/net9.0/ref/sunflower.kms.application.dll

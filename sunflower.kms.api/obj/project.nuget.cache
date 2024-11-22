@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZEcLW9TVS2Q=",
+  "success": true,
+  "projectFilePath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/sunflower.kms.api.csproj",
+  "expectedPackageFiles": [
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/swashbuckle.aspnetcore/7.0.0/swashbuckle.aspnetcore.7.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/swashbuckle.aspnetcore.swagger/7.0.0/swashbuckle.aspnetcore.swagger.7.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/swashbuckle.aspnetcore.swaggergen/7.0.0/swashbuckle.aspnetcore.swaggergen.7.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/swashbuckle.aspnetcore.swaggerui/7.0.0/swashbuckle.aspnetcore.swaggerui.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

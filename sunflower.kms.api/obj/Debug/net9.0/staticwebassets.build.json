@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HbBnRM+CSZcdNSRAsSlL8cPK2sEiG5ydeXOv1jONuCE=",
+  "Source": "sunflower.kms.api",
+  "BasePath": "_content/sunflower.kms.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

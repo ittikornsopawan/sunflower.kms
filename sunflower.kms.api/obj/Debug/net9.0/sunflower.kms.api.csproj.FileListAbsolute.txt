@@ -40,3 +40,4 @@
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.api/obj/Debug/net9.0/sunflower.kms.api.sourcelink.json

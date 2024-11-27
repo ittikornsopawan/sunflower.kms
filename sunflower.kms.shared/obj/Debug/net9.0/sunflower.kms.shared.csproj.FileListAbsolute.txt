@@ -9,3 +9,4 @@
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/refint/sunflower.kms.shared.dll
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.pdb
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/ref/sunflower.kms.shared.dll
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.sourcelink.json

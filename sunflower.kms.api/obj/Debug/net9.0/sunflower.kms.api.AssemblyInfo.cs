@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sunflower.kms.api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fb888d0a9d26033bd3bb381135cdfec4f39dff8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff9daa4978047a80f486799de2b9ef6040c5112b")]
 [assembly: System.Reflection.AssemblyProductAttribute("sunflower.kms.api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sunflower.kms.api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

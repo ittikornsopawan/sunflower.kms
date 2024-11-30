@@ -1,33 +1,20 @@
-using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using sunflower.kms.infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "KMS API",
-        Version = "v1",
-        Description = "Key Management System Microservice"
-    });
-});
+builder.Services.AddOpenApi();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<SunflowerKmsDbContext>(options => options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "KMS API v1");
-        c.RoutePrefix = string.Empty;
-    });
+    app.MapOpenApi();
 }
 
-app.UseRouting();
-app.UseAuthorization();
-app.MapControllers();
 app.UseHttpsRedirection();
+
 app.Run();

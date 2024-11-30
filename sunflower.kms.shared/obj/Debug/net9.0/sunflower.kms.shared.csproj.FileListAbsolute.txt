@@ -1,12 +1,13 @@
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/bin/Debug/net9.0/sunflower.kms.shared.deps.json
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/bin/Debug/net9.0/sunflower.kms.shared.dll
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/bin/Debug/net9.0/sunflower.kms.shared.pdb
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.csproj.AssemblyReference.cache
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.AssemblyInfoInputs.cache
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.AssemblyInfo.cs
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.csproj.CoreCompileInputs.cache
+/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.sourcelink.json
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.dll
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/refint/sunflower.kms.shared.dll
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.pdb
 /Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/ref/sunflower.kms.shared.dll
-/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/obj/Debug/net9.0/sunflower.kms.shared.sourcelink.json

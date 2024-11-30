@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.api", "sunflower.kms.api\sunflower.kms.api.csproj", "{719579CD-1153-41D6-98BC-1C6DD1BB4273}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.api", "sunflower.kms.api\sunflower.kms.api.csproj", "{496BAD5F-A045-4145-BD35-CFCD9570059B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.application", "sunflower.kms.application\sunflower.kms.application.csproj", "{F02747E7-5835-4003-85F5-B0B17775B8FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.application", "sunflower.kms.application\sunflower.kms.application.csproj", "{862BADF5-CAEE-4AF8-9F61-7C1C892A4996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.domain", "sunflower.kms.domain\sunflower.kms.domain.csproj", "{41F4B208-759C-4CDE-ADCC-D204318C4EF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.domain", "sunflower.kms.domain\sunflower.kms.domain.csproj", "{B5D03796-59A8-4F21-BAC4-EC5B2D9BDA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.infrastructure", "sunflower.kms.infrastructure\sunflower.kms.infrastructure.csproj", "{7BD16D67-E3F6-4EE4-AAFB-73C6D12A0596}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.infrastructure", "sunflower.kms.infrastructure\sunflower.kms.infrastructure.csproj", "{D1935F15-1424-4A69-90E6-F149DA55BD3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.shared", "sunflower.kms.shared\sunflower.kms.shared.csproj", "{50857D5A-A1CA-4365-B194-CF79C14F2478}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.shared", "sunflower.kms.shared\sunflower.kms.shared.csproj", "{FA1A103C-D44A-42DC-ACE6-D3C1E7AADF60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.tests", "sunflower.kms.tests\sunflower.kms.tests.csproj", "{BA5C61D4-1F38-4A2D-B7EC-1BA35DDA67E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunflower.kms.tests", "sunflower.kms.tests\sunflower.kms.tests.csproj", "{F330C9D1-71D4-4F65-8544-D37754930359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,29 +24,29 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{719579CD-1153-41D6-98BC-1C6DD1BB4273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{719579CD-1153-41D6-98BC-1C6DD1BB4273}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{719579CD-1153-41D6-98BC-1C6DD1BB4273}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{719579CD-1153-41D6-98BC-1C6DD1BB4273}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F02747E7-5835-4003-85F5-B0B17775B8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F02747E7-5835-4003-85F5-B0B17775B8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F02747E7-5835-4003-85F5-B0B17775B8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F02747E7-5835-4003-85F5-B0B17775B8FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41F4B208-759C-4CDE-ADCC-D204318C4EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41F4B208-759C-4CDE-ADCC-D204318C4EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41F4B208-759C-4CDE-ADCC-D204318C4EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41F4B208-759C-4CDE-ADCC-D204318C4EF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BD16D67-E3F6-4EE4-AAFB-73C6D12A0596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BD16D67-E3F6-4EE4-AAFB-73C6D12A0596}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BD16D67-E3F6-4EE4-AAFB-73C6D12A0596}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BD16D67-E3F6-4EE4-AAFB-73C6D12A0596}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50857D5A-A1CA-4365-B194-CF79C14F2478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50857D5A-A1CA-4365-B194-CF79C14F2478}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50857D5A-A1CA-4365-B194-CF79C14F2478}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50857D5A-A1CA-4365-B194-CF79C14F2478}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA5C61D4-1F38-4A2D-B7EC-1BA35DDA67E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA5C61D4-1F38-4A2D-B7EC-1BA35DDA67E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA5C61D4-1F38-4A2D-B7EC-1BA35DDA67E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA5C61D4-1F38-4A2D-B7EC-1BA35DDA67E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496BAD5F-A045-4145-BD35-CFCD9570059B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496BAD5F-A045-4145-BD35-CFCD9570059B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496BAD5F-A045-4145-BD35-CFCD9570059B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496BAD5F-A045-4145-BD35-CFCD9570059B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862BADF5-CAEE-4AF8-9F61-7C1C892A4996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862BADF5-CAEE-4AF8-9F61-7C1C892A4996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862BADF5-CAEE-4AF8-9F61-7C1C892A4996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862BADF5-CAEE-4AF8-9F61-7C1C892A4996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D03796-59A8-4F21-BAC4-EC5B2D9BDA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D03796-59A8-4F21-BAC4-EC5B2D9BDA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D03796-59A8-4F21-BAC4-EC5B2D9BDA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D03796-59A8-4F21-BAC4-EC5B2D9BDA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1935F15-1424-4A69-90E6-F149DA55BD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1935F15-1424-4A69-90E6-F149DA55BD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1935F15-1424-4A69-90E6-F149DA55BD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1935F15-1424-4A69-90E6-F149DA55BD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1A103C-D44A-42DC-ACE6-D3C1E7AADF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1A103C-D44A-42DC-ACE6-D3C1E7AADF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1A103C-D44A-42DC-ACE6-D3C1E7AADF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1A103C-D44A-42DC-ACE6-D3C1E7AADF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F330C9D1-71D4-4F65-8544-D37754930359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F330C9D1-71D4-4F65-8544-D37754930359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F330C9D1-71D4-4F65-8544-D37754930359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F330C9D1-71D4-4F65-8544-D37754930359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

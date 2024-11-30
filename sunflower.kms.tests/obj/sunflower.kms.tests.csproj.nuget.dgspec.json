@@ -48,13 +48,23 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.1.0, )"
             }
           },
           "imports": [
@@ -105,6 +115,9 @@
               "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj": {
                 "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj"
               },
+              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj": {
+                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj"
+              },
               "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj": {
                 "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj"
               }
@@ -126,6 +139,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -185,6 +208,91 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj",
+        "projectName": "sunflower.kms.infrastructure",
+        "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj",
+        "packagesPath": "/Users/ittikornsopawan/.nuget/packages/",
+        "outputPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ittikornsopawan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj": {
+                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -244,6 +352,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -292,8 +410,8 @@
               "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj": {
                 "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.application/sunflower.kms.application.csproj"
               },
-              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj": {
-                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.domain/sunflower.kms.domain.csproj"
+              "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj": {
+                "projectPath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.infrastructure/sunflower.kms.infrastructure.csproj"
               }
             }
           }
@@ -314,9 +432,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.11.1, )"
+              "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -327,6 +453,8 @@
               "version": "[2.9.2, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.8.2, )"
             }

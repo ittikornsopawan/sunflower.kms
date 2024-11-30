@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "rLYGsMCf7og=",
+  "dgSpecHash": "5hM8jDAxk4c=",
   "success": true,
   "projectFilePath": "/Users/ittikornsopawan/Repositories/github/sunflower.kms/sunflower.kms.shared/sunflower.kms.shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
+    "/Users/ittikornsopawan/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

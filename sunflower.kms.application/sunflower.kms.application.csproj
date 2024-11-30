@@ -2,7 +2,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\sunflower.kms.domain\sunflower.kms.domain.csproj" />
+    <ProjectReference Include="..\sunflower.kms.infrastructure\sunflower.kms.infrastructure.csproj" />
     <ProjectReference Include="..\sunflower.kms.shared\sunflower.kms.shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
